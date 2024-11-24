@@ -7,7 +7,16 @@ void main() {
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
           backgroundColor: Colors.blueGrey[900],
-          title: Center(child: Text('Eu Sou Rico'), ),
+          title: Center(
+            child: Text('Eu Sou Rico'),
+          ),
+        ),
+        body: Center(
+          child: Image(
+            image: AssetImage(
+                'img/myPictureLinkedin.png'
+            ),
+          ),
         ),
       ),
     ),
