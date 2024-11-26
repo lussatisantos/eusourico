@@ -14,7 +14,7 @@ void main() {
         body: Center(
           child: Image(
             image: AssetImage(
-                'img/myPictureLinkedin.png'
+                'img/rubi.png'
             ),
           ),
         ),
